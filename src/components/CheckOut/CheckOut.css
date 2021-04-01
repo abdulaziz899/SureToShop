@@ -1,0 +1,37 @@
+.checkOutContainer button{
+    float: right;
+    background-color: rgb(142, 206, 196);
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+.checkOutContainer button:hover{
+    background-color: rgb(187, 223, 211);
+}
+
+/* order success */
+.successContainer{
+    width: 50%;
+    height:auto;
+    padding: 40px;
+    background-color: aquamarine;
+    box-shadow: 10px 30px 30ox slategrey;
+    margin: 0px auto;
+}
+.successContainer button{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(44, 44, 88);
+    color: aliceblue;
+    font-size: 25px;
+}
+
+@media (max-width: 600px){
+    .successContainer button{
+        width: 100%;
+    }
+    .successContainer {
+        width: 100%;
+    }
+}

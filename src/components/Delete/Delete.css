@@ -1,0 +1,13 @@
+.deleteContainer p{
+    width: 20%;
+    text-align: center;
+}
+.deleteProductContainer h2{
+    width:25% ;
+    background-color: rgb(215, 217, 219);
+    text-align: center;
+    padding: 10px 0px;
+}
+.deleteContainer{
+    background-color: rgb(215, 217, 219);
+}

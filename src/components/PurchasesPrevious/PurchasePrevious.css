@@ -1,0 +1,28 @@
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.productImgContainer img{
+    width: 50%;
+    height:150px;
+}
+.productCartContainer{
+    width: 50%;
+    padding: 15px;
+    height: auto;
+}
+
+@media (max-width: 600px){
+    .cardContainer{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+}

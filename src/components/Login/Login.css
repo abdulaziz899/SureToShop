@@ -1,0 +1,35 @@
+.loginContainer{
+    width: 50%;
+    background-color: rgba(176, 197, 197, 0.739);
+    margin: 0px auto;
+    padding: 50px ;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 30px 30px gainsboro;
+}
+.loginContainer Button{
+    width: 80%;
+    margin: 0px auto;
+}
+.loginContainer h2{
+    color: rgba(54, 73, 73, 0.37);
+    padding: 30px 0px;
+}
+
+@media (max-width: 600px){
+    .loginContainer{
+        width: 100%;
+    }
+    .loginContainer Button{
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px){
+    .loginContainer{
+        width: 80%;
+    }
+    .loginContainer Button{
+        width: 100%;
+    }
+}

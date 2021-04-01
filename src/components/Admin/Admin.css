@@ -1,0 +1,43 @@
+.adminContainer {
+    display: flex;
+    background-color: #dddddd;
+}
+.formControlNow{
+    text-align: center;
+    width: 80%;
+    background-color: #bd9c9c;
+    margin-left: 10px;
+    padding: 20px;
+}
+.formControlNow input{
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+}
+.sideNavContainer{
+    background-color: #dddddd;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+  }
+  
+  ul li {
+    height: 40px;
+    margin: 10px 0px;
+    width: 100%;
+  }
+  ul li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    
+  }
+  ul li :hover{
+      background-color: #bd9c9c;
+  }
